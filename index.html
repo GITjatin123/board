@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOARD</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+
+</head>
+<body>
+<section class="bg-img-one pt-3">
+    <div class="container" style="position: relative;">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="navbar css-nav ">
+                    <li class="nav-item ">
+                        <a href="javascript:(0);" class="nav-link" style="font-size: 50px;"><i class="las la-home"></i></a>
+                    </li>
+                    <li  class="nav-item hover-underline-animation nav-size-a">
+                        <a href="javascript:(0);" class="nav-link opacity-75">stories</a>
+                    </li>
+                    <li  class="nav-item hover-underline-animation nav-size-a">
+                        <a href="javascript:(0);" class="nav-link opacity-75">documents</a>
+                    </li>
+                    <li  class="nav-item hover-underline-animation nav-size-a">
+                        <a href="javascript:(0);" class="nav-link opacity-75">keeps</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="javascript:(0);"  class="nav-link" style="font-size: 50px;"><i class="lar la-user-circle"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row logo-padding">
+            <div class="col-md-12">
+                <img src="assets/images/logo2.png" class="img-fluid sec-one-logo" style="max-width:43%;" alt="">
+                <p class="logo-text">your personlized library of filtered internet.</p>
+            </div>
+        </div>
+        <span class="arrow-down"><i class="las la-download"></i></span>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 pt-3">
+                <p class="sec-two-plug">plug in your way to ease</p>
+                <div class="two-logo" style="display:block;margin: auto;width:45%;">
+                    <img src="assets/images/firefox_logo.png" class="firefox-logo" style="" alt="">
+                    <img src="assets/images/chrome-logo.png" class="chrome-logo" style="" alt="">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/puzzel.png" class=" img-fluid puzzel" style="" alt="">
+            </div>
+        </div>
+        <div class="row mt-5 pb-5">
+            <div class="col-md-12">
+                <p class="plugin-p"><span style="color:red;">filter the most relevant</span> parts of any website by drag and selecting.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec-three-bg">
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-lg-6">
+                   <div class="row">
+                       <div class="col-xl-5">
+                       </div>
+                       <div class="col-xl-6 ">
+                           <div style="margin-top: 50px;">
+                               <div class="" style="background-color:#efeaec;">
+                                   <div class="progress-bars" id="org" style="background-color:orangered;"></div>
+                               </div>
+                               <br>
+                               <div class="" style="background-color: #efeaec;">
+                                   <div class="progress-bars" id="parrot" style="background-color:yellowgreen;"></div>
+                               </div>
+                               <br>
+                               <div class="" style="background-color: #efeaec;">
+                                   <div class="progress-bars" id="sky" style="background-color:steelblue;"></div>
+                               </div>
+                               <br>
+                               <div class="" style="background: rgb(211,211,211);background: linear-gradient(270deg, rgba(211,211,211,1) 61%, rgba(239,234,236,1) 61%);">
+                                   <div class="progress-bar" id="green" style="background-color:mediumseagreen;"></div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-xl-1">
+                       </div>
+                   </div>
+            </div>
+            <div class="col-lg-6">
+                <p class="sec-three-p">one click notes</p>
+                <div class="row">
+                    <div class="col-sm-1 pt-3">
+                        <li class="circles-li">
+                            <span class="circles " onclick="move()" style=" background-color: orangered;"></span>
+                        </li>
+                        <li class="circles-li">
+                            <span class="circles"  onclick="move2()" style="background-color:yellowgreen;"></span>
+                        </li>
+                        <li class="circles-li">
+                            <span class="circles"  onclick="move3()" style="background-color:steelblue;"></span>
+                        </li>
+                        <li class="circles-li">
+                            <span class="circles"  onclick="move4()" style="background-color:mediumseagreen;"></span>
+                        </li>
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="one-click-p">organise collected data in a prefered notepad color with just one click.</p>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mt-5">
+                    <p class="sec-two-plug mb-0">one stop destination</p>
+                    <p class="sec-two-plug">for bloggers & researchers</p>
+                </div>
+                    <div class="card mb-5" style="border: none;">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="assets/images/noun_16392_cc.jpg" class="img-fluid rounded-start bloggers-img mt-3" alt="...">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <p class="card-text bloggers-text">
+                                        fauxboard is your silent assistant, working in the background of
+                                        every website. Uninterruptedly, saving the preferred parts of the
+                                        article.<span class="bloggers-text-span" style="color:red;"> You just make a note and move on to making another.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="card mb-5" style="border: none;">
+                    <div class="row g-0">
+                        <div class="col-md-2">
+                            <img src="assets/images/noun_5020_cc.png" class="img-fluid rounded-start bloggers-img" alt="...">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <p class="card-text bloggers-text">
+                                    Your library is truely personlaized as
+                                    <span style="color:red;">its your picks of the best of each article.</span>
+                                    Note colours make it easy to recollect.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="add-p" style="">share your research</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="share-bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="text-align: center;margin-top: -32px;">
+                        <span class="or-span"></span>
+                        <p class="or-text">or</p>
+                        <span class="or-span"></span>
+                    </div>
+                    <p class="add-p" style="">add them to keeps</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn fouxboard-btn">get fauxboard for free</button>
+                    <p class="fouxboard-or">or</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row pt-4 mb-5">
+            <div class="col-md-12">
+                <p class="content-p">build content by simaple drag and drope</p>
+                <p class="content-documentation-p">Fouxboard's doucumenting tool is first of kind realtime online writting experience.</p>
+                <p class="content-research-p">we let your research as you write.</p>
+                <div class="premium-div">
+                    <p class="Fouxboard-premium-p">WHAT  MONEY  CAN  BUY  YOU</p>
+                    <p class="FOUXBOARD-PREMIMU">FOUXBOARD PREMIMU</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function move() {
+        var elem = document.getElementById("org");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 57) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                elem.innerHTML = width * 1  + '%';
+            }
+        }
+    }
+    function move2() {
+        var elem = document.getElementById("parrot");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                elem.innerHTML = width * 1  + '%';
+            }
+        }
+    }
+    function move3() {
+        var elem = document.getElementById("sky");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 70) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                elem.innerHTML = width * 1  + '%';
+            }
+        }
+    }
+    function move4() {
+        var elem = document.getElementById("green");
+        var width =1;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 95) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                elem.innerHTML = width * 1  + '%';
+            }
+        }
+    }
+</script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

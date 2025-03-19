@@ -1,0 +1,466 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+@font-face {
+    src: url("fonts/Oriya-Sangam-MN.ttc");
+    font-family: 'Oriya-Sangam-MN';
+}
+*{
+    transition:all 0.2s;
+}
+.bg-img-one{
+    background-image: url("../assets/images/cover2.png");
+    background-size: cover;
+}
+.css-nav li{
+    list-style-type: none;
+}
+.css-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.css-nav li a:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    color:red;
+}
+.nav-size-a a{
+    font-size: 35px!important;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: red;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scalex(0);
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: orangered;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scalex(1);
+    transform-origin: bottom left;
+}
+.sec-one-logo{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+
+}
+.logo-padding{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.arrow-down{
+    display: block;
+    text-align: center;
+    bottom: -4%;
+    left:48%;
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    color:#000;
+    cursor: pointer;
+}
+.arrow-down:hover{
+    color:red;
+    bottom: -5%;
+    transition: 0.5s;
+    font-size: 60px;
+}
+.logo-text{
+    text-align: center;
+    font-size: 45px;
+    color:#fff;
+    font-family:Oriya-Sangam-MN;
+}
+.sec-two-plug{
+    font-size: 80px;
+    color:red;
+    font-family:Oriya-Sangam-MN;
+    line-height: 86px;
+    font-weight: lighter;
+}
+.puzzel{
+    margin-top: -76px;
+}
+.plugin-p{
+    font-size: 40px;
+    width:60%;
+    margin:auto;
+    font-family:Oriya-Sangam-MN;
+    line-height: 46px;
+}
+.two-logo{
+    display:block;
+    margin: auto;
+    width:45%;
+}
+.firefox-logo{
+    max-width: 95px;
+    cursor: pointer;
+}
+.chrome-logo{
+    max-width: 95px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.firefox-logo:hover{
+    transform: rotatez(360deg) scale(1.1);
+    transition: 0.9s;
+}
+.chrome-logo:hover{
+    transform: rotatez(360deg) scale(1.1);
+    transition: 0.9s;
+}
+
+.sec-three-bg{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(140,111,176,1) 100%);
+}
+.sec-three-p{
+    font-size: 70px;
+    color:#fff;
+    font-family:Oriya-Sangam-MN;
+
+}
+
+.circles-li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.circles{
+    padding:1px 11px;
+    border-radius: 14px;
+    border:1px solid #fff;
+    cursor:pointer;
+
+}
+.circles:hover{
+    padding:3px 13px;
+    border-radius: 17px;
+    border:1px solid #fff;
+    transition: 0.1s;
+}
+.one-click-p{
+    font-size: 38px;
+    color:#fff;
+    line-height: 46px;
+    font-family:Oriya-Sangam-MN;
+}
+.progress-bars{
+    width:0%;
+    height:30px;
+    color:#efeaec;
+    text-align: center;
+}
+.progress-bar{
+    height:30px;
+    width:0%;
+    color:#efeaec;
+    text-align: center;
+}
+.bloggers-text{
+    font-weight:normal;
+    font-size: 37px;
+    line-height: 46px;
+    font-family:Oriya-Sangam-MN;
+
+}
+.bloggers-img{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+.bloggers-img:hover{
+    transform: scale(1.1)!important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.share-bg-img{
+    background-image: url("../assets/images/bg-img.png");
+    background-size: cover;
+    background-position: bottom;
+}
+.or-span{
+    background-color: red;
+    height:5px;
+    width:20%;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.or-text{
+    text-align: center;
+    color:red;
+    font-size:35px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.add-p{
+    text-align: center;
+    font-family:Oriya-Sangam-MN;
+    font-size: 40px;
+    line-height:40px;
+    max-width: 22%;
+    margin: auto;
+    margin-bottom:18px;
+}
+.fouxboard-btn{
+    font-size: 40px;
+    color:#000;
+    font-family:Oriya-Sangam-MN;
+    padding:10px 20px;
+    display:block;
+    margin:auto;
+    margin-top:145px;
+    border:3px solid #52527a;
+    border-radius:unset;
+    background: rgb(243,239,239);
+    background: linear-gradient(90deg, rgba(243,239,239,0.7598389697675946) 0%, rgba(243,239,239,0.6421919109440651) 100%);
+}
+.fouxboard-btn:hover{
+    border:3px solid transparent;
+    background: rgb(245,8,33);
+    background: linear-gradient(90deg, rgba(245,8,33,0.4680845971200981) 0%, rgba(245,8,33,0.40926106770833337) 100%);
+    transition: 0.8s!important;
+}
+.fouxboard-or{
+    text-align: center;
+    font-size: 40px;
+    font-family:Oriya-Sangam-MN;
+}
+
+.content-p{
+    font-size: 80px;
+    color:red;
+    font-family:Oriya-Sangam-MN;
+    line-height: 86px;
+    font-weight: lighter;
+    text-align: center;
+}
+.content-documentation-p{
+    font-size: 45px;
+    font-weight: lighter;
+    color:#000;
+    font-family:Oriya-Sangam-MN;
+    line-height: 52px;
+    max-width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.content-research-p{
+    font-size: 45px;
+    font-weight: lighter;
+    color:red;
+    font-family:Oriya-Sangam-MN;
+    line-height: 52px;
+    max-width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.premium-div{
+    display: block;
+    margin:auto;
+    max-width: 46%;
+    border:7px solid #000000;
+}
+.Fouxboard-premium-p{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: "Fira Code";
+    color:#000;
+    padding:50px 10px;
+}
+.FOUXBOARD-PREMIMU{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    padding:10px 30px;
+    background-color:#fff;
+    margin-bottom: -31px!important;
+    max-width:60%;
+    margin: auto;
+}
+@media (max-width: 1337px) {
+    .css-nav li a{
+        font-size: 30px;
+    }
+    .logo-padding{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sec-one-logo{
+        max-width: 40%;
+    }
+    .logo-text{
+        font-size: 40px;
+    }
+    .arrow-down{
+        bottom: -9%;
+    }
+    .arrow-down:hover{
+        bottom: -10%;
+    }
+}
+@media (max-width: 1200px){
+    .puzzel{
+        margin-top: -61px;
+    }
+    .sec-two-plug{
+        font-size: 62px;
+        line-height: 56px;
+    }
+    .bloggers-text{
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width: 991px){
+    .puzzel{
+        margin-top: -44px;
+    }
+    .sec-two-plug{
+        font-size: 48px!important;
+        line-height: 46px;
+    }
+    .plugin-p{
+        width:100%;
+    }
+    .bloggers-text{
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .add-p{
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .or-text{
+        font-size:25px;
+        margin-top:11px;
+    }
+    .fouxboard-btn{
+        font-size:25px;
+        margin-top:82px;
+    }
+    .fouxboard-or{
+        font-size: 25px;
+    }
+}
+@media (max-width: 769px) {
+    .css-nav li a{
+        font-size: 20px!important;
+    }
+    .logo-padding{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo-text{
+        font-size: 20px;
+    }
+    .arrow-down{
+        bottom: -10%;
+        font-size: 35px;
+    }
+    .arrow-down:hover{
+        bottom: -14%;
+        font-size: 35px;
+    }
+    .puzzel{
+        margin-top: -34px;
+    }
+    .sec-two-plug{
+        font-size: 40px!important;
+        line-height: 36px;
+    }
+    .two-logo{
+        display:block;
+        margin: auto;
+        width:100% !important;
+    }
+    .firefox-logo{
+        max-width: 55px;
+    }
+    .chrome-logo{
+        max-width: 55px;
+        margin-left: 20px;
+    }
+    .plugin-p{
+        width:100%;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .sec-three-p{
+        font-size: 45px;
+    }
+    .bloggers-img{
+        max-width: 32%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .add-p{
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .or-text{
+        font-size:20px;
+        margin-top:17px;
+    }
+    .fouxboard-or{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 576px){
+    .two-logo{
+        display:block;
+        margin: auto;
+        width:40% !important;
+    }
+    .firefox-logo{
+        max-width: 35px;
+    }
+    .chrome-logo{
+        max-width:35px;
+        margin-left: 20px;
+    }
+    .sec-two-plug{
+        font-size: 40px;
+        text-align: center;
+        line-height: 36px;
+    }
+    .puzzel{
+        margin-top:unset;
+        max-width: 100px;
+        align-items: center;
+        position: fixed;
+        opacity: 10%;
+    }
+    .circles-li{
+        display: inline-block;
+    }
+    .add-p{
+        max-width: 100%;
+    }
+    .fouxboard-btn{
+        font-size:16px;
+        margin-top:72px;
+    }
+}
